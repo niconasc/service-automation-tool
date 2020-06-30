@@ -27,7 +27,7 @@ import util.Report_Builder
     dryRun = false,
     monochrome = false,
     tags = [
-        "@restAssured"
+        "@all"
     ]
 )
 class Runner {

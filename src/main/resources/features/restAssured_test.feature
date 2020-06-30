@@ -1,9 +1,9 @@
 # language: pt
 # encoding: utf-8
-  @restAssured
+  @restAssured @all
   Funcionalidade: Realizar requisições e testes com o Rest Assured
 
-    @all
+    @suite
     Esquema do Cenário: Cenário: Realizar requisição <request>
       Dado que eu tenha os dados para requisição "<request>"
       Quando eu realizar a requisição "<request>"
