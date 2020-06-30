@@ -21,7 +21,7 @@ class HttpRequest {
                 }
             }
             else ->         con.apply {
-                requestMethod = "POST"
+                requestMethod = method.toUpperCase()
                 doOutput = true
 
                 if (header != null) {
